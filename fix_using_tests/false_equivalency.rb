@@ -11,10 +11,11 @@ def prompt_user
 end
 
 def selection(num)
-  binding.pry
+  
   case num 
   when 1
    "YUM YUM MUNCH MUNCH MUNCH"
+   binding.pry
   when 2
     "HAM HAM HAM IN MY TUMMY"
   end
