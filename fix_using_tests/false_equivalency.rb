@@ -11,6 +11,7 @@ def prompt_user
 end
 
 def selection(num)
+  binding.pry
   case num 
   when 1
    "YUM YUM MUNCH MUNCH MUNCH"
